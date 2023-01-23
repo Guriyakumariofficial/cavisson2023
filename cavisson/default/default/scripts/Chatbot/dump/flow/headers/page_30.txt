@@ -1,0 +1,66 @@
+
+--Response 
+HTTP/1.1 200
+content-type: application/json; charset=utf-8
+content-length: 30
+x-envoy-upstream-service-time: 2
+server: istio-envoy
+date: Mon, 16 Jan 2023 06:16:22 GMT
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=50
+server-timing: origin; dur=38
+strict-transport-security: max-age=31536000
+content-security-policy: frame-ancestors 'self'; upgrade-insecure-requests
+set-cookie: akaalb_perf_single=1673936182~op=PERF_GCP_EAST_DFLT:PERF_DEFAULT_EAST|~rv=84~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=f4d59dabedeaa2a3592a5a501bf1a62b; path=/; Expires=Tue, 17 Jan 2023 06:16:22 GMT; HttpOnly; Secure; SameSite=None
+x-network-quality: Excellent
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Request 
+GET https://va.v.liveperson.net/api/js/51200453?sid=qbRNdl0cT3qIUuoc5LXCSA&cb=lpCb48249x3980&t=ip&ts=1673849789946&pid=6496356369&tid=8024539239&vid=hkNmFlYTk5MTdhYmE4MWI5
+Host: va.v.liveperson.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 16 Jan 2023 06:16:29 GMT
+content-type: application/javascript
+cache-control: no-store
+server: ws
+access-control-allow-methods: GET, POST, PATCH
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token
+access-control-expose-headers: X-Requested-With, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token, x-lp-host, Lp-Req-Time, date, x-application-context, strict-transport-security, x-content-type-options, x-download-options, x-xss-protection, x-cache-status, x-amz-id-2, x-amz-request-id, expires, last-modified, set-cookie, content-security-policy, x-frame-options
+access-control-allow-credentials: true
+content-encoding: gzip
+----
+
+
+
+
+

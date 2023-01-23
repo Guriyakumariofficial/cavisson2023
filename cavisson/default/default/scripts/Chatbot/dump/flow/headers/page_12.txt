@@ -1,0 +1,261 @@
+--Request 
+POST https://d.clarity.ms/collect
+Host: d.clarity.ms
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+Accept: application/x-clarity-gzip
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Origin: https://perf.lowes.com
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: MUID=054F1D68521E6EC421570FF353946F34
+----
+--Response 
+HTTP/1.1 204
+vary: Origin
+server: Microsoft-IIS/10.0
+request-context: appId=cid-v1:238681e8-7d6b-453a-acb6-7dcad74f3111
+access-control-allow-origin: https://perf.lowes.com
+access-control-allow-credentials: true
+date: Mon, 16 Jan 2023 06:12:42 GMT
+----
+--Request 
+GET https://mjca-yijws.global.ssl.fastly.net/LODOWS854_SE.js
+Host: mjca-yijws.global.ssl.fastly.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 77842
+Last-Modified: Mon, 02 Jan 2023 14:38:18 GMT
+ETag: \"5731be3f46a44c1d99ef8e5b2a5427d2\"
+Content-Encoding: gzip
+Content-Type: application/x-javascript
+Access-Control-Allow-Origin: *
+cache-control: max-age=3600
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Accept-Ranges: bytes
+Date: Mon, 16 Jan 2023 06:12:44 GMT
+Via: 1.1 varnish
+Age: 1902
+X-Served-By: cache-ewr18121-EWR
+X-Cache: HIT
+X-Cache-Hits: 34
+X-Timer: S1673849564.025268,VS0,VE0
+Vary: Accept-Encoding
+----
+--Request 
+GET https://cdn.480app.com/ads.js?r=3431939529617636
+Host: cdn.480app.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+last-modified: Tue, 23 Jun 2015 06:50:40 GMT
+etag: \"8a68886c66c8ca4dccac563705f5891c\"
+content-type: application/x-javascript
+access-control-allow-origin: *
+cache-control: max-age=3600
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+content-encoding: gzip
+accept-ranges: bytes
+date: Mon, 16 Jan 2023 06:12:47 GMT
+via: 1.1 varnish
+age: 812
+x-served-by: cache-ewr18183-EWR
+x-cache: HIT
+x-cache-hits: 211
+x-timer: S1673849567.244653,VS0,VE0
+vary: Accept-Encoding
+content-length: 41
+----
+--Request 
+GET https://colrep.sitelabweb.com/chpdata/?d=ZxkRwpHT2godYpv1o1FhGgoaEcj4aN8cTS1J3N0qYUERjArcZQ9oIIMST6AJ2Rw3a0RQzn7NEck3I1BhG7qc~cu2MB-TUBrblD2tbRDNmX-cYRvqYI2g2s5PkIyoYcMNnordV43oHZBgmBsan89~rl8cS~zbnh0zacRXEaJTJhTpIUINn~qc-4xoX4MQS~nb-4ypIYKNmonPkI2o2MMRDA6N-I4o2k2hWfEUIDBv6RTNm7mcIZ43LVAg2B~b-4wkshJhWBpPnJinYQFR2smN2YwnLJ~cjr2YFpkoLN~QGspMYVjo7F~Nnw6anU9nLQCcTn0Y2VmoIN1Qzb7NYVinogJQGj8N2Jh~YkDcTzrcKpkqYR0bTwoNKb2zoIEQWn6YFo1~LMJb2zAMkJj~rYNQWr7J3F2qYE2eHkqZ-5o3MRCgyv2QjYysnUEVncqc2bu1L9LcXnzYKDtkYJYNnsqZLM911Z5g0BzZ2Zj3LV0TTbra3Rfz79Jfns1ek5V1rlIcWrqM-FT3LFIcXnrYnVi1L9-e2w1PkEmzaRFhHBxZnNs17N7cXjEMUcs221IgnwqJ3NzqaZzfHoqJ2RyqXULUiv1M3MynIIENTj1JkRBpXUEUyv1M3MynIIFNTj1JkRBnXULVC~zc3b9nHZFcWTkZYJ0zY12Z2sTdL9o~LcDZ2I6YlRY3bZJXn7fVE5BtqA9RV7SeXN1wLJEb1wzOoZxuah0WHX_T3N3oJ59c2T~bnwt~JNgSXsmTo9Or5IFcHkrd2Rf0KIKeX3BYLta0sZEfG7oVn9Ov2kFiEA5NnM2s7tHYDBrbkhRvshiZHoNT-Y24ZkJXln8RWC5ubVLhj29bYpiw7lm_lcUcJpsxq8JZyS6WlR-pbp~STB_Mlhuu8IKQEA6W1M20p8CXVcYNoVwxrR-emwNToNvoZkIXka6VYM3urZ6RHsmaLpP0pZZXkS7bnRwsbFOQF7MVntvrsAMeGopMVhQ~MULhWkSbYI10p89Wlw2MkZ0vYRxV0gWTkZP1Zxx_WM0VKDwxpNLeXr6Topfs5FhXjw8e0-wsqEEemE7Tkoy1YdifG~WVLUwu8JMekM0W1MysLIN_TBdNZR0wb5hZEXRToNBnKh_Ylg2RYhxx_FHQHbAQ3tRwMMJbX~9bXoxn_ULWG_yYKZy4sdCZXsYakcIvqFCfGj5WmC1s6gM_ksvdkNRpa9cZH7mS1Iz1KlfWXf6eoh1z7kLhTn9V2Zls2cFYD7HaYJhuqJBfUE1UWVv4YhIZW7pb39VxqBIg2kSVmQ11rcLYDBdbkg4wsJ-Q37RUVVC2aJdSVb5RKR6zqRFg3~1U2xk1YcEcHgHa1DhrpwL_Ho6W3cP32NzUm3Te3UxxsVTQENSVnZysMYJ_nBreoZhwbJsek~TWkl01J59Vlk2aohvzbpscj3WbYcRwIMF_Tv8a05NxaoDemz0TlRqnYJde3BkRL9NxadTRUNyR1Ey1bZTXUozM~cy~bBBgnrEJ3NpqYI2gG~5PkI2nV_r&c=522
+Host: colrep.sitelabweb.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Mon, 16 Jan 2023 06:12:47 GMT
+ETag: \"60ed64cb-2a\"
+Last-Modified: Tue, 13 Jul 2021 10:02:51 GMT
+Server: nginx
+Content-Length: 42
+Connection: keep-alive
+----
+--Request 
+GET https://colrep.sitelabweb.com/chpdata/?d=pG9XMwzTk82mNdEIvs_15cXuyJwr5T4xV8TpQZEn0oJ06S0l0MtnzWYddHWTcJRqy_JNYOT5TJcmyUI9cHWHYJRqy_JNYOT5TJcmyY4ViM2HZblulc_I6R0h0NAmlHlJiIXucaUhutsNGiWZHJcmyEVNw5S-iRA03h2UJVyxDMxvhU~Uh5i-cQQ03gZUJRnq0cDrpX45i2TpbJRvB_JdZOTlDcCzzY4leLnusb11uu2UJRixEQcilI2QV60xPMiulc_J4hmcEc6yyHkUi9S-iQg0ycdN6h3q4bC_zEVIh2TuqJRAC_JIJh2yEcCEvXpNyL30YdA0ycZUKVTh0NAulHmMV5jqTbk5lovR6dFq0cDrpX45i2TpbJRvB_JdZOTlDagrJXoZVH3yPZCUptvQ6Rjl0MAilIWIf2T0tJRAE_JJ_OTlDcCAvYJBZLm9JZVE0pM5KfWc9c6yyHkUi9S-iQg0yccFPcXqHUCjmUXBhKWuPRVE0kuVKh2DAbxrMWZNl2TpbJRvB_JVZRCxIRMyyL~Uh5mDZbk15hNhNZ2yEcCEvXpN5KXufJRqy_JNYOTyTMMy1MEUh9y-bMlvosvBNcXm2RgA0P4ViM2HZblvMrNNNOTlDJcrBEVVx5C-gRA0ygoUJRmyzYgvlY2VpNFuPc1vpsu5KYGDEdMyyHkUi9S-gQhildKQ6Rkp0Mtn3WYtZHn0kRVE0kuVKh2DAbxrMWZNl2TpbJRvB_JVZRCxIRMyyL~Uh5nibaUvltuNGiXuWeRvTUZNiKWgYc~UptvQ6Rjl0MAilIWIf2T0tJRrD_JIJh29AcRflYmVpNFuPc1vpsu5KYGDEdMyyHkUi9S-gQhildKQ6Rkp0MtnjUY5lLHHueFzTpNNKfWc9cAQpY5QV5jpPM~mldKIHOTyVJc6EEVdz2T9tJRAE_c5Ed3uyZ7WMO2R8E1tjNRymucVJUThILt9xEoJd8TpjNh4mouIWRT-KM790JVUn5TCiOQ51oJ1pY0ijVOimWIFiAXDfZUdzrM9FUTd1eRz1WYQuHWpaNBu3p6EPdTdBYwnmIFNT7WxfY0qwp6QHdGpKYfmmZZVZIDY_ZBjlcpF3dG-HMCyzHFYlIGpbOB0wo_cPcWi0OcjlIkZiKWxoNEzhdMMQdj0zMtmxT-VT7T0OYx1jp_kIRWq1ZtDxUFYWMH3oMQ5otcV7UW9HdRfzEVNw2TqvJRrGt6VJdiZ7bD6lY~5TL2YPMi4mu6V8hjVAJwEzNY5WIWufZUy9c2ZBh1c~bDzuZJJq8V0YaVzlp2UJRFqHYgvlY~ZhKTYaJljmu30JSg1q&c=522
+Host: colrep.sitelabweb.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Mon, 16 Jan 2023 06:12:48 GMT
+ETag: \"60ed64cb-2a\"
+Last-Modified: Tue, 13 Jul 2021 10:02:51 GMT
+Server: nginx
+Content-Length: 42
+Connection: keep-alive
+----
+--Request 
+GET https://colrep.sitelabweb.com/chpdata/?d=upbFgO_Rba2V2dqKvQ71Q9Xs5JN75wUxMaTY5cM~9A7Qh~i~Kc_m0k9gh_D~5Ydl1Qs0ezzzTJNB0nx9cmGkHJLfwRfMq3W~HTfJJ0iENnnRFYci9A6ZeAHrZM3Ewk9QNo2oLP1B07A9dCW3DbKnmzxxMVmLCZd-hNN1140soVd64luQNpmkHP1o197gcwmkIP324l9YNj2YUM163ANgh-TvSM3R3mtZdjTHnTapTJdESCGgNR7S0xx5_mWPDP1kmTgViCWrZY62xleMfkGUNZ1kwMAJS~Do7O6A0wUIXkGfFZqw3MvISFXwDZpmwxeBMYzV1Zq60ASUezDzQZs2ymeUXjjsNY4plCsFR~i~Na6A9lhRIZWbOZI7iA7Ic9zw7O3FkwPVKkj~GM4xmN7kcADzActI9ktZPomk5P4G0SgBewToaJ33GhuJsoGkHZHfsQTdREyX7bemlkAYNpGk6cIbv7Ale3WXAZ670xxQlYCo9cbjjQTV_FHkVP5FuzyRMkCjHMpx0MwRREy~5Zs3s~UNSkXYUMm7hNgNhGWN9YNhvwUtMojGFJLWzDwRdFWvAcO69xCFTo2j5bMt2DsASE2wHXeBh0hElhVgmdpN0Bedx6GgWaOF5sBIfnEteSKN4PcAZzTcjS3xq0f1Won3oe4-NB9dBFUFRU7WPjv4_nFfMb2NwFglg4zBVNrOkrfpfo3-ITafjI9RVC0FlafV0wTZ8hTZXM4tzSvxw1UBdd_xuxS53fWBmRaOy9uhc7WfNNtEymf5bbVtRVoO3RTle40X7V57awBIcpzcMb33XHglj~ETNeNSSsgV1p2~Gd3p0M7NB2lwLberxqUNKdXQGQ12yR9Rs5EFTeq3zrURLflgiVLx3Tgoh92NtWsrvrhIgYXkrZ33RSSkcFVgRT6hTuBFLoDRLSabJGfx_EkFJO6mxsxN1Yn-NZp3QKuNG9lg5dfWwrv5whTcEeqs3NgptFkBqdrB3lApdnEcjL2KxANJm7Wo6ZfIx0A5v_DciTq-mABljAFwpW5BKqv5do2BFSJbKGfpXGGkMN6hRtTJqZ0oOZcxWJBBT9TwMbrBsufoXdUZAY4-IR9Rs5GgPeqZ5zgpokjcrS3N2HTAhAFgjSs_q0f0dnWBadaKPSeQd-UFRbqFPjvodnFgBWqxiMTYd5EkROsnXlBpbczQNUI3QPudw5moLdfWwqgV8eFcNQKpuAglw2E~wNMS31gV5emH3M2txAudc31jQY_x2owYZ_TZ3T4tGTd0l50XsUMBOtApyoEZCM37sGdNj-VkhMtWJsgV1p2Hac4tDMNVCz27Rd_35uxNJk3nGdJfSBRhx6EFTcfWzrS5Kflg~aaa0SNFiDVwwTtW2lf1_pmPpVatVB9heCVkVcpxawwZZYzZZV4tMGt0bAUWRcMBBsfpfqEZITb7kJtNG81jQdfW0ugV7dGHOc3KiTAxB6F~yQcJ3xUN6gnR6Y13yS8dv7WsGUtWu-wUZqVchV3pCPSxk5FgbV6dSqv1JnDbHNr-OJf5k2Fk6R3xNtBZ2bjZec4tEJ81Sz0XRbrBsufoXdUZAY37IStN26VkAMOW60gV-gWLbVLpPRfwh90XtWMSzrCVzqlgmeJfSCudVEGosMfxowBFLn23BSabfCvxa9kAHcMBOxSpfpEgITaKPPNJZ52nVZsg0qBZLhkoEdqw4SBBA6jwrM4OK0xRLjn-mRK3yRRNl9lghN6hvwBFYpW7_QabCSfoj5jwsaLSx~CUhpFfFN2fYJRdNzGnRV7xWtTFqp23HZabTHvx8zEBJbrB5~SoXhkkAY4-KR9RCA0FTQcFzzeVwkzcrR3OyJt1k9VkVU3-uoS59qWHrRp7RT9R_FEMVc_-PqApUolgBVJbtNA1n1UBed5BRtS12cjRPTb3VJBp-9UXkL3~tkuEXezR6Y37KQv19CU~rL5SG1gpgcH35MIKtR9RQ4GwLU3~wxgFrpktmQajnQNAiFVwvVMOkpwlJmzYFM4SjG9Qd11FiNp7SxCd-qG3eYae5MA1Vz1~CL4BWqBpuknxFZpJtBvpL-FFEL6g2zfl5gX3~SpOiBNFb3UTvVrOz0v0ZYHxbZ3OSCudn~FBUT3BSqA1YoGHQSJawMSh_4G2KN5BWuv9frntOZ3s5J8dB7kT9esWxuwFxhUxRSobYBv9B2F~eeMOG1hRQdn3jL2ezQeRZEUEKR4NyrTYYZW-RSLtYESxsFDvVaK21qv1KrmGMc37MKvp9zUFMS7_L1uVrZ1tOepO4KslQ3k~FM_34rglJj3tQQK62BRd~9kTEfON2rS1~kmHrSJe1Rfxb7Ug6S4Oz-v1WcDV_a2KYTf1a91FRcfSkjwlMrjYQVKGjGwBg4DbRN4N2twl2b2HOaoKPJvp020Xob_FxlgJudVtEd2jZQwh66lFee5BvxA4emFO5cL3wQTJh0S~Ma3myhDBNpDGHNV8_&c=522
+Host: colrep.sitelabweb.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Mon, 16 Jan 2023 06:12:49 GMT
+ETag: \"60ed64cb-2a\"
+Last-Modified: Tue, 13 Jul 2021 10:02:51 GMT
+Server: nginx
+Content-Length: 42
+Connection: keep-alive
+----
+--Request 
+GET https://perf.lowes.com/LowesSearchServices/resources/autocomplete/v2_0?searchTerm=&store_location=&region=&userType=&dbidv2=7b934de9-e8da-4b70-a5a4-c29ed3fa0316
+Host: perf.lowes.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: dbidv2=7b934de9-e8da-4b70-a5a4-c29ed3fa0316; region=east; notice_behavior=implied,eu; _lgsid=1673849558301; akaalb_perf_dual=1673935958~op=PERF_GCP_EAST_CTRL_DFLT:PERF_DEFAULT_EAST|~rv=94~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=c7d81cc6905fc4a4d3ff7a30e0cb0a3a; sn=1883; zipcode=14228; nearbyid=1883; zipstate=NY; AMCVS_5E00123F5245B2780A490D45%40AdobeOrg=1; g_amcv_refreshed=1; AMCV_5E00123F5245B2780A490D45%40AdobeOrg=-1303530583%7CMCIDTS%7C20105%7CMCMID%7C33059927376531299702538043148294114209%7CMCAAMLH-1674454359%7C9%7CMCAAMB-1674454359%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1673856759s%7CNONE%7CvVersion%7C3.3.0; _gcl_au=1.1.1905259846.1673849559; REVLIFTER={\"w\":\"0l554347-da15-447f-9091-6e8941024cdc\",\"u\":\"00a3a0bb-cfd5-45d2-be9a-3c0e25c45045\",\"s\":\"3ccefea4-a0ad-4fc4-956a-ef942fd149be\",\"se\":1676441559}; _fbp=fb.1.1673849559772.1280476199; g_previous=%7B%22gpvPageLoadTime%22%3A%220.00%22%2C%22gpvPageScroll%22%3A%22%22%2C%22gpvSitesections%22%3A%22hp%2Chp%2Chp%2Chp%22%2C%22gpvSiteId%22%3A%22desktop%22%2C%22gpvPageType%22%3A%22hp%22%7D; _tt_enable_cookie=1; _ttp=sZYZ9sTn3-5DTp0WmVpmSotAw-l; IR_gbd=lowes.com; IR_12374=1673849561202%7C0%7C1673849561202%7C%7C; _pin_unauth=dWlkPU5EaGhORGxpTnprdE1tUXhZeTAwWmpFeUxXRTJNbUl0TlRVMVpUQTRPV0UwTXpFNA; _uetsid=c8aa0ca0956411ed8fbd7d71a454652b; _uetvid=c8aa1250956411ed8eb6efb03452c98f; _clck=1wf2yr6|1|f8b|0; _clsk=1q4lsng|1673849561774|1|0|d.clarity.ms/collect; mdLogger=false; kampyle_userid=9edc-05ae-26e0-8b65-85f9-6b93-c7bb-bd89; kampyleUserSession=1673849561829; kampyleUserSessionsCount=1; kampyleSessionPageCounter=1; LPVID=VlNTkxMjNmZWQ2ZTUyZjNk; LPSID-51200453=7UdgakA_TZeXETWPpRs-_g; prodNumber=1; akaalb_perf_single=1673935962~op=PERF_GCP_EAST_DFLT:PERF_DEFAULT_EAST|~rv=31~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=b461f8fd1bf103c6a65cad662b865dfd; RT=\"z=1&dm=lowes.com&si=a6e50bb8-084a-4968-b3a2-5b759e74aa8a&ss=lcyet15s&sl=5&tt=65a&bcn=%2F%2F173bf109.akstat.io%2F&ld=7mq\"
+----
+--Response 
+HTTP/1.1 200
+content-type: application/json
+x-envoy-upstream-service-time: 3
+server: istio-envoy
+content-length: 656
+date: Mon, 16 Jan 2023 06:12:52 GMT
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=31
+server-timing: origin; dur=35
+strict-transport-security: max-age=31536000
+content-security-policy: frame-ancestors 'self'; upgrade-insecure-requests
+set-cookie: akaalb_perf_dual=1673935972~op=PERF_GCP_EAST_CTRL_DFLT:PERF_DEFAULT_EAST|~rv=94~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=595dd9e4e6802446503b67f746000bdd; path=/; Expires=Tue, 17 Jan 2023 06:12:52 GMT; HttpOnly; Secure; SameSite=None
+set-cookie: akaalb_perf_dual=1673935972~op=PERF_GCP_EAST_CTRL_DFLT:PERF_DEFAULT_EAST|~rv=94~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=595dd9e4e6802446503b67f746000bdd; path=/; Expires=Tue, 17 Jan 2023 06:12:52 GMT; HttpOnly; Secure; SameSite=None
+x-network-quality: Excellent
+----
+--Request 
+GET https://colrep.sitelabweb.com/chpdata/?d=6hvJG82Li2ZTdJQvWQ16aGxpaDQj~pNAIT3dJh-0YQImSjZdccf9gyI61jafJvKwKb0QDzWEMlIkgt1pKGqicPeut8B3iU3WbXp2MDR4Gmn0cXEvkmI4M2UgPNw3XAQiPndddZK3gxZyHmfUae19Fsl7QSuCbpN0aAc39EIBTjjTe4UMcnsVcmgxH84DJSFob~tyjXYM2mQNPNw2WwMmTD-uN3Y4gikpIW8rU96BA7RSAm1-cKE4gwVoJ2usbQ6w_ehNxW3UPZviG9Q6K27nN1Lwh_J0IjTdYtSkWDNPSGhbMbkjgnFlznPjaeN92MQBQThFY4AmQtNf2zJ-NyXicagNfGboNpvhT9k4WTEscJckkmR2HTYONyE2ggIeSWcuYJ21s-M4C2SnMbCjFsYMDWlMJ5w2S7EgHHSiZQ7ou8RGwyniQV8yLPU5Ontrc1Pux_9NIXPZYyrtSQJyPnhcZPb9vhZsH0faZvSjKMV-GTW4a56fai9xIn_ve97VsdlMsWjVMmrTYyF9WX2sYmIix_91K2YcPNsmgTRfjH0jZrcsvnNuDXCrMLWsJ31HUnq3J52zSAZbIHWiJTByua0GcngVbYpkSDRqMWd0aWcYz3lQElYVVzFWgQJujXhgT56wooZ36kTHNbOYLKliMGNPYKc1RBZQ8VSYQfaQoucIfHZnY5vzLzV2TVSUMjZ4hZpiEG4wSeW2VEhFUVpkRJZSlUo6IzP9Tee3B3VJMF59S2~sU8peImg-WCLjeOVBplgaSKQkN81uJ3~BWkf1h1UGDHkddz-GXSZQazokY4xXvCdbJEPCbeONCsJkSD_PMqE4PxpMBlmWNze4kLp6vX6pUFhpZDR-Y1KbbnAOpW1eN3I4awVwVkFuZXyhMPoTsmpU9HfxTuap2tZlNlz8VZu4YvpCBHyORAuzhv4DniLlMG9-HBdsS266UTulxnJdElgYVzSkbj9OhHdHRq6wyTA47n-YaMOD8bFyMEm_TGl1QtVACVuoRwXQjbdEuHcnVXT2QvF5TmOKaEMDwLVkEzDiWeKBjAV-_klibsZYmEdaFz9kZA6xHtVNNXR1bqETY9VL6zN2Y9P1eKRukV7Ib_9SNRpgY3xraVMxmYRQFnk_NRK4cSR6gnpvT6T1f0Vy9kDHewiGE9BwFXa2W2f1e7FpAHEzMwLsgcdhoHc7SlhuLlJePm_-RE6Sr2YNMzUwZ8R1nTRZdly4bcoEpDpp53joY9aXKtJATFi2VMAGZOJK2DOlUCmxsN5Nr1-WbW5-ORZtO278Ym66~qhp9UbVVzWThEBaizWfS5U0fXZ3AixBOfSnCrB0WlzXYKc6exJq8lWeVfaBoeBlvGPqToD0OfAARU-senMHnpFiEHHjScjtnUJCZmpSQJVZnWtkITPoWeex63VGNiNhd1VHXAhGIUt2WyLysqRugUPaV45kOT91bTxuT0guxmEMIGwSdNSYkCNRhnWDS2K2joJZ6VDHab8S9_ZnWnq2Vp21d7Bv9UhFavn-lLlkumLpTYUpWzV-PmOxVJIWt5BBLHIiSOSxj0VaZUdNM_btjUlP9GwmSr~y6tVGMVe0emwSW8poKTdDUR_0huREmUgEbK9WLRpoS1wBW2y5~qlJEVMDbh-Fg-FuSTlyT433oolx7UHBbQSW7_lfSmQFW112gddDFEOqViaLoLpYxjoCaI4wPlJ-VWZ3dUcrm292LXsfWeWqmARYaV_QaoVSnEZ_JX9nUtz129IEP2H1cXRYQ8Ng8Ec-WUB5vOVBoVgSU0rSNApgKDFZV091h2lOHkMReRBCdTJAW3-xUqs5yGVv5V9CVQCS8o1gHmR3Z_cuYxFvEkhPdva3lMZkuX2qU_l5ZDV0JUB~RHcXunZqOXIhVPF1nQBhZUuaNo3roDlSFmxmTdmpLtJmJm1pVa~Sa7IzLjhQRSG0gqBLmUcWeqQ-QRVtPH-ASzuumaJpBVM_bNxTgjJEkTS6V7bxjiB27UDTewi3BaZfTU5NWpzxgtVT8khrSyvQoNFSwTgYSnX1LlpATUFScUMHl2dzE2rcYgxRkkJCYV_NVccolS1OJT99bO_1IpFMQGDOd1RFR9phCGh1SP7tvOJrmmsFVKvSQQNzJDxuNlUzqMhNBnk9eR-4hD12aGMHS2LtyGVZD0PFawCF9apYTHeXSnVxdSJzCXEBbzP4iMZhoHc7SlhtZDk9LVK-RE6Su_tqOXIhVPF1nQBhZUuaNo3roDlSFmxmTdmpLtJmJm1pVa~Sa7IzLjhQRSG0gqBLmUcWeqQ-QRVtPH-ASzuumaJpBVM_bNxTgjJEkTS6V7bxjiB27UDTewi3BaZfTVzPYm22g7dTBk_oVjFDmdFlvDVYZH81LiF0Tnm3aEIGhnV2LWTaYgxXlkJCYV_NVccolS1OJT99bO_1IpFMQGDOd1RFR9phCGh1SP7tvOJrmmsFVKvSQQNzJDxuNlUzqMhNBnk9eR-4hD12aGMHS2LtyGVZF0PFawCF9apYTHeXSnVxdSJzCXEBbzP4iMZhoHc7SlhtZD5fWHKoVmyxn01eOW8QSgdudEFheGCxdJo3oEZSFXenUa~xINV8KUqsa52JaPtK2DKlexHul8FLln-KQm9GLSBuJnSATkZxxaVABlMWWBFPhAN2gjWdb_-uo0F26nbHQwG48aZ~DlzJYp~6gddV6kInbCXKod9SvDgqSn8xWC56VlOtdUI-wY5-E0ojWQxWkEVZYUlQaPoFmDdPFzHWTuV2CMoDPXRfdm6ZXRRf73u1TAjts8UIkUoIaqzFTDBcZD7CT-t0h4NCCUQ9bBFWcRl5g3WxTpxtyGVY9VDFab8TAc5nD3qLVoIxeARkEnEjbzaDiLlkfG3pTXIuOfVjRkxzVIMyr1ANNjb3VPFxjQBh_V_desoHnWRo53fmTcatINUDIVipVa2oVN1FLTWlNBi2hv5NrmxWe_9CPBdbSzx6Y22yxaJpBmkAVBxSgzpEkjh7V5rwfTFPAmYTefSCBadjL34OTnZJf7Vp8k4rMRLBoaIJwjgYVnTwPjV2V2_YbjV-p2VzLW7gWN-XmgciTUINVcZSlS1P5G-SSdVx76k8P0z5dK~revNeIG_AZ9Tms8JrlVcFVKDmMP1UbTxvaWfxqMQBHX80dR-4aSZ2aDpIS2Luk0JZ6VDFawCF9_dbTHaXRnVyPxFo9UWTd9X-cLlhoGKpSlhyKUJePV-sM0MJrpFMKzITRfs1nQBhZU_des3SoEZSGnT~YB65INV7JUqsM_mTVN1G7GEiSBdzlvQDsGBBc0MnPBZYYXRBUj9xwXhdCkYAVB-oaf11kTlyV5w0fiF2AVbUSsSnBaZfSX4PUqq5hBVpJFKoRkBQmLplxDZqeIqwWTpDVUFKc~M-r2d1E03cYgqxkAgiXkyiM5oClS1OJW-SSvuuBNFGNmDOe1VHYQRg70c~YRrkc5JwjkoFVKvSMP1ZNmnrSlPxrYUGFn8yedK-XSJ2aGHxS2K2kGJZ6mbCVQCS9adUTHaMSnVxPw1o9lhSbzaDicJ-o1xpSlhtZDJeQmFbVY6SpnpCMzU8awSxjjpxeCIaMZ-YgzlSFmxmTcexINV7JluFW_ZFVN1FLWEiTTvxvKBLnVcWe_9GWxJuJ3F6Y10QxaVABUYDMAnGeQJokjWbVqs1yCB27UYCbMiY4a90TXeOUH21exVm8UdWMy7FjLdhwDVYZHX0WChAVVNzdUMGjn9-5kHaYyrXjwciZkIhVO-MpW9THj99ZNlzLZBGKUe4eqVSY9ZJIXgqYkPucKlfnk3dMp44TzB1azxqVlQxwmABDXgReRBGdjNTX33tYOZFxThu9VDFab8ZAstnWXpOVoIxdSUw8nqSeDP4jdphoDs8SlhtZ9h2OkjxUE2SonZqOnYPVPFxj0ZjeHMMbcoDjX5i90xwZP66KcJmJVepVa2oVN1FLThRbxWxkqBLmUcWeqQ4NAlYY3xATkVuyXhEClbVVxBMaf11kWMcT66xvF54C1bTbQSE9_lfSmQOW16ygPFV8kWoVArEi_1gyWPVTpUuPzF8VW_Oa~VruYd-E1HiWd-JmQl-eEChbrkBrCJaIj9nRuFxIbhDPV1ObXVrV8lJHmA1TAnxs8VClkkcWKDSTvNNJD3uOl9thNoNH2wRbBBDaRl5SG0xTpxuvzJN8kPabwWJEsEJTHaMSnVyPxlo9U_WbzaDiMpln32pTXD5ZUldSVSoaj2SonoNKDUTVOSxjkFaZVpIbcoDlWpi0mKmYtqxINV7JUqsaNEFW8dG2DmmQRrul8FLln-KQq9SPBZbbXRATkgFzmkLDkIZRx7FbRd1hHW4R46womUwAnYTefiSBaZfTmROYM~kP7lp9kdhVlrFjLdgvHZyRXQxVUJ2TXngdjIYr3J25kogWgx2mwdFYkIkVMLGrDpXIDH9dN507856NXQHb1EnY9ZJHXt1UBe5vOVFnk3eM6zXSlBc_D7LNkD2nYlPFngReRBCdSd9_3-xTp76gzFM9k-bMtiPEqZnWXaLVp22TdBvAVSjeDaDkNRhoGKpSlhyKUJeWGKbVY6St2pbNDIPVPFxjQA__XudesoFlUlkGniiWv66LcJmJVepVa2oVN1FLThRbxWxkqBLmUcWeqQ4NAlYY3xATkVuyXhEClbVVxBMaf11kWMcT66xvF54C1bTbQSE9_lfSmQOW16ygPFV8kWoVArEi_1gyWPVTpUuPzF8VlOYaUI-p3B2LTbfYgxJlAUiYk0hbpZLpDpLHzHxdOBwIZVHNXQHc1AGY8lJHmA1TAnxs8VClkkcWKDSTvNNJD3uOl9thNoNH2wRbBBDaRl5SG0xTpxuvzJN8kPabwWJEsEJTHaMSnVyPxlo9lhfb9XYr6Rwf37zYWz1IDVSRVtxVYMRrnpnLXM4TeSxnjkiZm8aasoDsm9S52xyTtmqHJVmS1a9VXAGZAFkKyADTR6xh6oIpmBAMW5TTwpZZWiATkVqw5ZsCVCFVzWDbgJ6hXdcRqnwfTVy73b8aCV5D3Y1UmqEbN20S6ZsHT9wJUHmu40IggtJ&c=522
+Host: colrep.sitelabweb.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Mon, 16 Jan 2023 06:12:52 GMT
+ETag: \"60ed64cb-2a\"
+Last-Modified: Tue, 13 Jul 2021 10:02:51 GMT
+Server: nginx
+Content-Length: 42
+Connection: keep-alive
+----
+--Request 
+GET https://va.v.liveperson.net/api/js/51200453?sid=7UdgakA_TZeXETWPpRs-_g&cb=lpCb86291x98956&t=ip&ts=1673849572663&pid=5824443698&tid=2727292249&vid=VlNTkxMjNmZWQ2ZTUyZjNk
+Host: va.v.liveperson.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 16 Jan 2023 06:12:53 GMT
+content-type: application/javascript
+cache-control: no-store
+server: ws
+access-control-allow-methods: GET, POST, PATCH
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token
+access-control-expose-headers: X-Requested-With, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token, x-lp-host, Lp-Req-Time, date, x-application-context, strict-transport-security, x-content-type-options, x-download-options, x-xss-protection, x-cache-status, x-amz-id-2, x-amz-request-id, expires, last-modified, set-cookie, content-security-policy, x-frame-options
+access-control-allow-credentials: true
+content-encoding: gzip
+----
+

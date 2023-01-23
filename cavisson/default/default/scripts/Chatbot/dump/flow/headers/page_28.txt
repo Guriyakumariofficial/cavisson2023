@@ -1,0 +1,35 @@
+
+--Response 
+HTTP/1.1 200
+content-type: application/json; charset=utf-8
+content-length: 30
+x-envoy-upstream-service-time: 2
+server: istio-envoy
+date: Mon, 16 Jan 2023 06:18:28 GMT
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=33
+server-timing: origin; dur=48
+strict-transport-security: max-age=31536000
+content-security-policy: frame-ancestors 'self'; upgrade-insecure-requests
+set-cookie: akaalb_perf_single=1673936308~op=PERF_GCP_EAST_DFLT:PERF_DEFAULT_EAST|~rv=31~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=3185baa71363d93674537599099108dc; path=/; Expires=Tue, 17 Jan 2023 06:18:28 GMT; HttpOnly; Secure; SameSite=None
+x-network-quality: Excellent
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,248 @@
+--Request 
+POST https://d.clarity.ms/collect
+Host: d.clarity.ms
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+Accept: application/x-clarity-gzip
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Origin: https://perf.lowes.com
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: MUID=054F1D68521E6EC421570FF353946F34
+----
+--Response 
+HTTP/1.1 204
+vary: Origin
+server: Microsoft-IIS/10.0
+request-context: appId=cid-v1:238681e8-7d6b-453a-acb6-7dcad74f3111
+access-control-allow-origin: https://perf.lowes.com
+access-control-allow-credentials: true
+date: Mon, 16 Jan 2023 06:16:57 GMT
+----
+--Request 
+GET https://va.v.liveperson.net/api/js/51200453?sid=7UdgakA_TZeXETWPpRs-_g&cb=lpCb47521x10015&t=ip&ts=1673849824630&pid=5824443698&tid=2727292249&vid=VlNTkxMjNmZWQ2ZTUyZjNk
+Host: va.v.liveperson.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 16 Jan 2023 06:17:04 GMT
+content-type: application/javascript
+cache-control: no-store
+server: ws
+access-control-allow-methods: GET, POST, PATCH
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token
+access-control-expose-headers: X-Requested-With, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token, x-lp-host, Lp-Req-Time, date, x-application-context, strict-transport-security, x-content-type-options, x-download-options, x-xss-protection, x-cache-status, x-amz-id-2, x-amz-request-id, expires, last-modified, set-cookie, content-security-policy, x-frame-options
+access-control-allow-credentials: true
+content-encoding: gzip
+----
+
+
+
+
+--Request 
+GET https://www.facebook.com/tr/?id=625799750871183&ev=SubscribedButtonClick&dl=https%3A%2F%2Fperf.lowes.com%2F&rl=&if=false&ts=1673849825201&cd[buttonFeatures]=%7B%22classList%22%3A%22chips-item%22%2C%22destination%22%3A%22%22%2C%22id%22%3A%22%22%2C%22imageUrl%22%3A%22%22%2C%22innerText%22%3A%22Installations%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22button%22%2C%22type%22%3Anull%2C%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D&cd[buttonText]=Installations&cd[formFeatures]=%5B%5D&cd[pageFeatures]=%7B%22title%22%3A%22smart%22%7D&cd[parameters]=%5B%5D&sw=1483&sh=555&v=2.9.92&r=stable&ec=2&o=30&fbp=fb.1.1673849559772.1280476199&it=1673849559662&coo=false&es=automatic&tm=3&rqm=GET
+Host: www.facebook.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: text/plain
+access-control-allow-credentials: true
+strict-transport-security: max-age=31536000; includeSubDomains
+cross-origin-resource-policy: cross-origin
+content-length: 0
+server: proxygen-bolt
+alt-svc: h3=\":443\"; ma=86400
+priority: u=3,i
+date: Mon, 16 Jan 2023 06:17:05 GMT
+----
+
+
+
+
+
+
+
+
+
+
+--Request 
+GET https://va.msghist.liveperson.net/postmessage/postmessage.min.html?bust=1673849825354&loc=https%3A%2F%2Fperf.lowes.com
+Host: va.msghist.liveperson.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Upgrade-Insecure-Requests: 1
+User-Agent: SOASTA
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 16 Jan 2023 06:17:05 GMT
+content-type: text/html
+last-modified: Sun, 09 Aug 2020 13:04:00 GMT
+etag: W/\"5f2ff440-2a51\"
+server: ws
+access-control-allow-methods: GET, POST, PATCH
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token, x-lp-state-rev
+access-control-expose-headers: X-Requested-With, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token, x-lp-host, Lp-Req-Time, date, x-application-context, strict-transport-security, x-content-type-options, x-download-options, x-xss-protection, x-cache-status, x-amz-id-2, x-amz-request-id, expires, last-modified, set-cookie, content-security-policy, x-frame-options, x-lp-state-rev
+access-control-allow-credentials: true
+content-encoding: gzip
+----
+
+
+
+
+
+
+
+
+--Request 
+GET https://accdn.lpsnmedia.net/api/account/51200453/configuration/le-users/users/e2806476-0b4a-5563-97d6-be35eaf41bc6?cb=lpCb43304x5163
+Host: accdn.lpsnmedia.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 16 Jan 2023 06:17:05 GMT
+content-type: application/javascript
+vary: Accept
+expires: Mon, 16 Jan 2023 06:18:05 GMT
+x-envoy-upstream-service-time: 1
+server: ws
+strict-transport-security: max-age=99999999999; includeSubDomains
+access-control-allow-methods: GET, POST, PATCH
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token
+access-control-expose-headers: X-Requested-With, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token, x-lp-host, Lp-Req-Time, date, x-application-context, strict-transport-security, x-content-type-options, x-download-options, x-xss-protection, x-cache-status, x-amz-id-2, x-amz-request-id, expires, last-modified, set-cookie, content-security-policy, x-frame-options
+access-control-allow-credentials: true
+x-cache-status: EXPIRED
+x-content-type-options: nosniff
+content-encoding: gzip
+----
+
+
+--Request 
+GET https://accdn.lpsnmedia.net/api/account/51200453/configuration/le-users/users/46339f31-8524-58b8-a63b-8e029df1ee60?cb=lpCb22590x93760
+Host: accdn.lpsnmedia.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 16 Jan 2023 06:17:05 GMT
+content-type: application/javascript
+vary: Accept
+expires: Mon, 16 Jan 2023 06:18:05 GMT
+x-envoy-upstream-service-time: 2
+server: ws
+strict-transport-security: max-age=99999999999; includeSubDomains
+access-control-allow-methods: GET, POST, PATCH
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token
+access-control-expose-headers: X-Requested-With, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token, x-lp-host, Lp-Req-Time, date, x-application-context, strict-transport-security, x-content-type-options, x-download-options, x-xss-protection, x-cache-status, x-amz-id-2, x-amz-request-id, expires, last-modified, set-cookie, content-security-policy, x-frame-options
+access-control-allow-credentials: true
+x-cache-status: EXPIRED
+x-content-type-options: nosniff
+content-encoding: gzip
+----
+
+
+
+
+--Request 
+GET https://va.msghist.liveperson.net/messaging_history/api/account/51200453/conversations/consumer/metadata/search?state=close,archive&limit=50&source=unifiedWindow&__d=12255
+Host: va.msghist.liveperson.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+LP-DOMAIN-REFERER: https://perf.lowes.com
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJraWQiOiIwMDAwMSIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmNTc3MDczODQyNDYyNzAxZjYwYzBmMjEzNzc5YjljODA4MjAyNWRjNjRhZTA3YmU4ZGQ3ODUzNjlkMzk3MWY0IiwiYXVkIjoiYWNjOjUxMjAwNDUzIiwiYWNyIjoiMCIsImlzcyI6Imh0dHBzOlwvXC9pZHAubGl2ZXBlcnNvbi5uZXQiLCJscC5leHQiOnsic3ViIjoiMWU2OWU4YmMtNjdmYy00YTBiLWE5ZTgtYmM2N2ZjZmEwYmUxIiwiaXNzIjoiaHR0cHM6XC9cL2lkcC5saXZlcGVyc29uLm5ldCIsImxwX3NkZXMiOiJlMmY3OTU4YmI2NTdkYWM4YTJjY2IwYTU4Y2I0ZGRiNDVkZmJiZmYzODQzMzVkYmRiYzAwY2Y1YzZiYWVmY2UyY2YwZmY3MmRiZDI5ODkxNDU3Nzc4OTM0MTA4ZDZlYTY2MjY1MmEwMjU0OTFlOWNiZmZiNTc4ZWNhN2I0OWViN2E3MTBhMzRhM2IwZTA2ZjBiMmJkNWQ3MjNhMWYzZTVkNTljZTUwMWI5Y2U4YzdlNmVjYjI2ZWEyNDUzNTE5MjgifSwiZXhwIjoxNjczODUwNDE0LCJpYXQiOjE2NzM4NDk4MTR9.nexC8ZpkgdU-6X7Q_8EX8gfQTSbIKKlo_vOEUXYoPY7bTFCiTU50_sRnwU8YuUX5NEIZREUrQeQPYDxasf8N6UJ3J-6v40kxNRd5x37qTnkLmTaoqWoWoXhlQZWVmDJM-hx9za5W0_0ZqO77peXNQhkZdcYCsqM-M3gUMHzhIVvx6Nxo0p-2DqIYmffCq9MC_J3ipANL6F0-HcPXY2HtrsOe1HF_IbA3nz_7NhU28u3Y7qO_NPktIFy2Ua8zvD-StxID_3YwMML7axZl11LN96riBlnh9zvtSKlqNTANJEzusoa3q5OR-lo_wUeqpBM91Kf7yg-31P93hMFH6C5K2g
+Content-Type: application/json; charset=UTF-8
+Accept: */*
+X-Requested-With: XMLHttpRequest
+LP-URL: https://perf.lowes.com/
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://va.msghist.liveperson.net/postmessage/postmessage.min.html?bust=1673849825354&loc=https%3A%2F%2Fperf.lowes.com
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Mon, 16 Jan 2023 06:17:05 GMT
+content-type: application/json;charset=UTF-8
+adrum_0: g:2b66f687-10b4-4083-a0b6-875254fb7dab
+adrum_1: n:livepersonltd_93a08561-b03e-475e-b29b-9ad4aa207daf
+adrum_2: i:1271303
+adrum_3: e:237
+cache-control: max-age=0, no-cache, no-store
+server: ws
+access-control-allow-methods: GET, POST, PATCH
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token, x-lp-state-rev
+access-control-expose-headers: X-Requested-With, X-HTTP-Method-Override, LP-DOMAIN-REFERER, LP-URL, ETag, ac-revision, X-LP-Last-Modified, If-Match, Authentication-Method, Credit-Card-Ref, Automation-Secret, Email-Token, x-lp-host, Lp-Req-Time, date, x-application-context, strict-transport-security, x-content-type-options, x-download-options, x-xss-protection, x-cache-status, x-amz-id-2, x-amz-request-id, expires, last-modified, set-cookie, content-security-policy, x-frame-options, x-lp-state-rev
+access-control-allow-credentials: true
+content-encoding: gzip
+----
+
+
+
+
+
+
+
+
+
+
+

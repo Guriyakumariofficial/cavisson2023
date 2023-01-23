@@ -1,0 +1,322 @@
+--Request 
+POST https://perf.lowes.com/gauge/link/cmsComponent
+Host: perf.lowes.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Content-Type: text/plain;charset=UTF-8
+Accept: */*
+Origin: https://perf.lowes.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: dbidv2=7b934de9-e8da-4b70-a5a4-c29ed3fa0316; region=east; notice_behavior=implied,eu; _lgsid=1673849558301; akaalb_perf_dual=1673935958~op=PERF_GCP_EAST_CTRL_DFLT:PERF_DEFAULT_EAST|~rv=94~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=c7d81cc6905fc4a4d3ff7a30e0cb0a3a; sn=1883; zipcode=14228; nearbyid=1883; zipstate=NY; AMCVS_5E00123F5245B2780A490D45%40AdobeOrg=1; g_amcv_refreshed=1; AMCV_5E00123F5245B2780A490D45%40AdobeOrg=-1303530583%7CMCIDTS%7C20105%7CMCMID%7C33059927376531299702538043148294114209%7CMCAAMLH-1674454359%7C9%7CMCAAMB-1674454359%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1673856759s%7CNONE%7CvVersion%7C3.3.0; _gcl_au=1.1.1905259846.1673849559; RT=\"z=1&dm=lowes.com&si=a6e50bb8-084a-4968-b3a2-5b759e74aa8a&ss=lcyet15s&sl=2&tt=5mg&bcn=%2F%2F173bf109.akstat.io%2F&ld=4hn\"; prodNumber=1; akaalb_perf_single=1673935959~op=PERF_GCP_EAST_DFLT:PERF_DEFAULT_EAST|~rv=31~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=fcb71a919d78cabc9332788a8cc414e8
+----
+--Response 
+HTTP/1.1 200
+content-type: application/json; charset=utf-8
+content-length: 30
+x-envoy-upstream-service-time: 2
+server: istio-envoy
+date: Mon, 16 Jan 2023 06:12:39 GMT
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=25
+server-timing: origin; dur=32
+strict-transport-security: max-age=31536000
+content-security-policy: frame-ancestors 'self'; upgrade-insecure-requests
+set-cookie: akaalb_perf_single=1673935959~op=PERF_GCP_EAST_DFLT:PERF_DEFAULT_EAST|~rv=31~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=fcb71a919d78cabc9332788a8cc414e8; path=/; Expires=Tue, 17 Jan 2023 06:12:39 GMT; HttpOnly; Secure; SameSite=None
+x-network-quality: Excellent
+----
+--Request 
+GET https://connect.facebook.net/signals/plugins/identity.js?v=2.9.92
+Host: connect.facebook.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+vary: Accept-Encoding
+content-encoding: gzip
+content-type: application/x-javascript; charset=utf-8
+content-security-policy: default-src * data: blob: 'self';script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.google.com 127.0.0.1:* 'unsafe-inline' 'unsafe-eval' blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self';block-all-mixed-content;upgrade-insecure-requests;
+x-fb-rlafr: 0
+document-policy: force-load-at-top
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy: same-origin-allow-popups
+pragma: public
+cache-control: public, max-age=1200
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-content-type-options: nosniff
+x-xss-protection: 0
+x-frame-options: DENY
+strict-transport-security: max-age=31536000; preload; includeSubDomains
+x-fb-debug: ZlNM/WigT31JME28NL10kGayP70aDWQCZG5L0ISMcgH84qWKi7KxGWfT8X+Ncy1kwyiYwVVWG08RvQq9vZ+7jA==
+priority: u=3,i
+content-length: 20722
+date: Mon, 16 Jan 2023 06:12:39 GMT
+alt-svc: h3=\":443\"; ma=86400
+----
+--Request 
+GET https://connect.facebook.net/signals/config/625799750871183?v=2.9.92&r=stable
+Host: connect.facebook.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+vary: Accept-Encoding
+content-encoding: gzip
+content-type: application/x-javascript; charset=utf-8
+content-security-policy: default-src * data: blob: 'self';script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.google.com 127.0.0.1:* 'unsafe-inline' 'unsafe-eval' blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self';block-all-mixed-content;upgrade-insecure-requests;
+x-fb-rlafr: 0
+document-policy: force-load-at-top
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy: same-origin-allow-popups
+pragma: public
+cache-control: public, max-age=1200
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-content-type-options: nosniff
+x-xss-protection: 0
+x-frame-options: DENY
+strict-transport-security: max-age=31536000; preload; includeSubDomains
+x-fb-debug: IX7VkyJu/GFHgiG3usMpoSNOBZ1hx8AArxesh94/Dhpt2vZdwDLw3g67aF59do1MC4OQLH2f/Mz9bl9kWONZag==
+priority: u=3,i
+content-length: 110270
+date: Mon, 16 Jan 2023 06:12:39 GMT
+alt-svc: h3=\":443\"; ma=86400
+----
+--Request 
+GET https://assets.adobedtm.com/0c85fa4ac103/23b3840ffae3/1b71d193829a/RC2fbabc39970e42eeba6a3a79b471cfe9-source.min.js
+Host: assets.adobedtm.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+accept-ranges: bytes
+content-type: application/x-javascript
+etag: \"8243f8d07b4383a9cc109e474ed54f8b:1673453626.069136\"
+last-modified: Wed, 11 Jan 2023 16:13:46 GMT
+server: AkamaiNetStorage
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 678
+cache-control: max-age=3600
+expires: Mon, 16 Jan 2023 07:12:39 GMT
+date: Mon, 16 Jan 2023 06:12:39 GMT
+access-control-allow-origin: https://perf.lowes.com
+timing-allow-origin: *
+----
+--Request 
+GET https://assets.adobedtm.com/0c85fa4ac103/23b3840ffae3/1b71d193829a/RC97991d7530804966918438e18d9a2db9-source.min.js
+Host: assets.adobedtm.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+accept-ranges: bytes
+content-type: application/x-javascript
+etag: \"8243f8d07b4383a9cc109e474ed54f8b:1673453626.069136\"
+last-modified: Wed, 11 Jan 2023 16:13:46 GMT
+server: AkamaiNetStorage
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 771
+cache-control: max-age=3600
+expires: Mon, 16 Jan 2023 07:12:39 GMT
+date: Mon, 16 Jan 2023 06:12:39 GMT
+access-control-allow-origin: https://perf.lowes.com
+timing-allow-origin: *
+----
+--Request 
+GET https://api.official-deals.co.uk/v1/pixel?c=%7B%22w%22:%220l554347-da15-447f-9091-6e8941024cdc%22,%22u%22:%2200a3a0bb-cfd5-45d2-be9a-3c0e25c45045%22,%22s%22:%223ccefea4-a0ad-4fc4-956a-ef942fd149be%22,%22se%22:1676441559%7D
+Host: api.official-deals.co.uk
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 302
+content-type: image/gif
+content-length: 0
+location: https://api.official-coupons.com/v1/pixel?r=1&c=%7B%22w%22%3A%220l554347-da15-447f-9091-6e8941024cdc%22%2C%22u%22%3A%2200a3a0bb-cfd5-45d2-be9a-3c0e25c45045%22%2C%22s%22%3A%223ccefea4-a0ad-4fc4-956a-ef942fd149be%22%2C%22se%22%3A1676441559%7D
+date: Mon, 16 Jan 2023 06:12:39 GMT
+x-amzn-requestid: 5765e535-6263-4bac-a336-fd55d2cdeca4
+access-control-allow-origin: *
+set-cookie: REVLIFTER=[{\"w\":\"0l554347-da15-447f-9091-6e8941024cdc\",\"u\":\"00a3a0bb-cfd5-45d2-be9a-3c0e25c45045\",\"s\":\"3ccefea4-a0ad-4fc4-956a-ef942fd149be\",\"se\":1676441559}]; path=/; domain=.official-deals.co.uk; expires=Tue, 16 Jan 2024 06:12:39 GMT; SameSite=None; Secure;
+x-amz-apigw-id: e0mhxGFSjoEF6yQ=
+x-amzn-trace-id: Root=1-63c4ead7-2d401b8d5946d67c4e84d21b;Sampled=0
+x-cache: Miss from cloudfront
+via: 1.1 cfc46590021b7df312893ffb67317bb2.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK50-P5
+x-amz-cf-id: 8gCmKWeCyeK6CLBj_q033Psdg_6mhnX-4wk_xOETY4BhWCdcvzbJRw==
+----
+--Request 
+GET https://assets.adobedtm.com/0c85fa4ac103/23b3840ffae3/1b71d193829a/RCc21cd6f11f8e4f67b562ba58458ab889-source.min.js
+Host: assets.adobedtm.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+accept-ranges: bytes
+content-type: application/x-javascript
+etag: \"8243f8d07b4383a9cc109e474ed54f8b:1673453626.069136\"
+last-modified: Wed, 11 Jan 2023 16:13:46 GMT
+server: AkamaiNetStorage
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 781
+cache-control: max-age=3600
+expires: Mon, 16 Jan 2023 07:12:39 GMT
+date: Mon, 16 Jan 2023 06:12:39 GMT
+access-control-allow-origin: https://perf.lowes.com
+timing-allow-origin: *
+----
+--Request 
+GET https://assets.adobedtm.com/0c85fa4ac103/23b3840ffae3/1b71d193829a/RC6e095553f0464f2bba21af7f12f49570-source.min.js
+Host: assets.adobedtm.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+accept-ranges: bytes
+content-type: application/x-javascript
+etag: \"8243f8d07b4383a9cc109e474ed54f8b:1673453626.069136\"
+last-modified: Wed, 11 Jan 2023 16:13:46 GMT
+server: AkamaiNetStorage
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 565
+cache-control: max-age=3600
+expires: Mon, 16 Jan 2023 07:12:39 GMT
+date: Mon, 16 Jan 2023 06:12:39 GMT
+access-control-allow-origin: https://perf.lowes.com
+timing-allow-origin: *
+----
+--Request 
+GET https://assets.adobedtm.com/0c85fa4ac103/23b3840ffae3/1b71d193829a/RCd1d3e1b0a0a2453faa57017778db1a79-source.min.js
+Host: assets.adobedtm.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+accept-ranges: bytes
+content-type: application/x-javascript
+etag: \"8243f8d07b4383a9cc109e474ed54f8b:1673453626.069136\"
+last-modified: Wed, 11 Jan 2023 16:13:46 GMT
+server: AkamaiNetStorage
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 529
+cache-control: max-age=3600
+expires: Mon, 16 Jan 2023 07:12:39 GMT
+date: Mon, 16 Jan 2023 06:12:39 GMT
+access-control-allow-origin: https://perf.lowes.com
+timing-allow-origin: *
+----
+--Request 
+GET https://www.facebook.com/tr/?id=625799750871183&ev=PageView&dl=https%3A%2F%2Fperf.lowes.com%2F&rl=&if=false&ts=1673849559774&sw=8192&sh=4096&v=2.9.92&r=stable&ec=0&o=30&fbp=fb.1.1673849559772.1280476199&it=1673849559662&coo=false&eid=09c7e34f-227d-4739-8dbd-1388867095a8&rqm=GET
+Host: www.facebook.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: text/plain
+access-control-allow-credentials: true
+strict-transport-security: max-age=31536000; includeSubDomains
+cross-origin-resource-policy: cross-origin
+content-length: 0
+server: proxygen-bolt
+alt-svc: h3=\":443\"; ma=86400
+date: Mon, 16 Jan 2023 06:12:39 GMT
+----
+

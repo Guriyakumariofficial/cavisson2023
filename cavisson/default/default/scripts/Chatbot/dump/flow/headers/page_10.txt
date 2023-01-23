@@ -1,0 +1,114 @@
+--Request 
+POST https://perf.lowes.com/gauge/link/clickToChat
+Host: perf.lowes.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Content-Type: text/plain;charset=UTF-8
+Accept: */*
+Origin: https://perf.lowes.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: dbidv2=7b934de9-e8da-4b70-a5a4-c29ed3fa0316; region=east; notice_behavior=implied,eu; _lgsid=1673849558301; akaalb_perf_dual=1673935958~op=PERF_GCP_EAST_CTRL_DFLT:PERF_DEFAULT_EAST|~rv=94~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=c7d81cc6905fc4a4d3ff7a30e0cb0a3a; sn=1883; zipcode=14228; nearbyid=1883; zipstate=NY; AMCVS_5E00123F5245B2780A490D45%40AdobeOrg=1; g_amcv_refreshed=1; AMCV_5E00123F5245B2780A490D45%40AdobeOrg=-1303530583%7CMCIDTS%7C20105%7CMCMID%7C33059927376531299702538043148294114209%7CMCAAMLH-1674454359%7C9%7CMCAAMB-1674454359%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1673856759s%7CNONE%7CvVersion%7C3.3.0; _gcl_au=1.1.1905259846.1673849559; akaalb_perf_single=1673935959~op=PERF_GCP_EAST_DFLT:PERF_DEFAULT_EAST|~rv=31~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=fcb71a919d78cabc9332788a8cc414e8; REVLIFTER={\"w\":\"0l554347-da15-447f-9091-6e8941024cdc\",\"u\":\"00a3a0bb-cfd5-45d2-be9a-3c0e25c45045\",\"s\":\"3ccefea4-a0ad-4fc4-956a-ef942fd149be\",\"se\":1676441559}; _fbp=fb.1.1673849559772.1280476199; g_previous=%7B%22gpvPageLoadTime%22%3A%220.00%22%2C%22gpvPageScroll%22%3A%22%22%2C%22gpvSitesections%22%3A%22hp%2Chp%2Chp%2Chp%22%2C%22gpvSiteId%22%3A%22desktop%22%2C%22gpvPageType%22%3A%22hp%22%7D; _tt_enable_cookie=1; _ttp=sZYZ9sTn3-5DTp0WmVpmSotAw-l; IR_gbd=lowes.com; IR_12374=1673849561202%7C0%7C1673849561202%7C%7C; _pin_unauth=dWlkPU5EaGhORGxpTnprdE1tUXhZeTAwWmpFeUxXRTJNbUl0TlRVMVpUQTRPV0UwTXpFNA; _uetsid=c8aa0ca0956411ed8fbd7d71a454652b; _uetvid=c8aa1250956411ed8eb6efb03452c98f; _clck=1wf2yr6|1|f8b|0; _clsk=1q4lsng|1673849561774|1|0|d.clarity.ms/collect; mdLogger=false; kampyle_userid=9edc-05ae-26e0-8b65-85f9-6b93-c7bb-bd89; kampyleUserSession=1673849561829; kampyleUserSessionsCount=1; kampyleSessionPageCounter=1; RT=\"z=1&dm=lowes.com&si=a6e50bb8-084a-4968-b3a2-5b759e74aa8a&ss=lcyet15s&sl=4&tt=64k&bcn=%2F%2F173bf109.akstat.io%2F&ld=6qg\"; LPVID=VlNTkxMjNmZWQ2ZTUyZjNk; LPSID-51200453=7UdgakA_TZeXETWPpRs-_g; prodNumber=1
+----
+--Response 
+HTTP/1.1 200
+content-type: application/json; charset=utf-8
+content-length: 30
+x-envoy-upstream-service-time: 2
+server: istio-envoy
+date: Mon, 16 Jan 2023 06:12:42 GMT
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=27
+server-timing: origin; dur=33
+strict-transport-security: max-age=31536000
+content-security-policy: frame-ancestors 'self'; upgrade-insecure-requests
+set-cookie: akaalb_perf_single=1673935962~op=PERF_GCP_EAST_DFLT:PERF_DEFAULT_EAST|~rv=31~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=b461f8fd1bf103c6a65cad662b865dfd; path=/; Expires=Tue, 17 Jan 2023 06:12:42 GMT; HttpOnly; Secure; SameSite=None
+x-network-quality: Excellent
+----
+--Request 
+GET https://www.lowescdn.com/seo/ChatButton.svg
+Host: www.lowescdn.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: image/svg+xml
+accept-ranges: bytes
+content-encoding: br
+etag: \"5fd38c9b34d6eb98a00de8ddb59d367b:1654605897.477944\"
+last-modified: Sat, 14 Jan 2023 15:24:37 GMT
+server: Akamai Resource Optimizer
+vary: Accept-Encoding
+content-length: 835
+cache-control: max-age=31536000
+date: Mon, 16 Jan 2023 06:12:42 GMT
+----
+--Request 
+GET https://www.lowescdn.com/seo/ChatAvatar.svg
+Host: www.lowescdn.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: image/svg+xml
+accept-ranges: bytes
+content-encoding: br
+etag: \"0d6cfbaad5f3d26c4ff2366466959a88:1654605899.196269\"
+last-modified: Sat, 14 Jan 2023 00:34:57 GMT
+server: Akamai Resource Optimizer
+vary: Accept-Encoding
+content-length: 78820
+cache-control: max-age=31536000
+date: Mon, 16 Jan 2023 06:12:42 GMT
+----
+--Request 
+GET https://beacon.krxd.net/usermatch.gif?kuid_status=new&partner=ttd&partner_uid=ttd&gdpr=0&gdpr_consent=&ttd_tdid=b0586724-f7ff-4eb1-abeb-c7f059147ac2
+Host: beacon.krxd.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 204
+date: Mon, 16 Jan 2023 06:12:42 GMT
+set-cookie: _kuid_=PUlIXvg5; Expires=Sat, 15-Jul-23 06:12:40 GMT; Max-Age=15552000; Domain=.krxd.net; Path=/
+cache-control: private, no-cache, no-store
+p3p: policyref=\"https://cdn.krxd.net/kruxcontent/p3p.xml\", CP=\"NON DSP COR NID OUR DEL SAM OTR UNR COM NAV INT DEM CNT STA PRE LOC OTC\"
+x-served-by: beacon-n036-ash-prod.krxd.net
+x-request-time: D=33 t=1673849560
+----
+

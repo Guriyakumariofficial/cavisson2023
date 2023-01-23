@@ -1,0 +1,163 @@
+--Request 
+POST https://perf.lowes.com/gauge/pageview/homepage
+Host: perf.lowes.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Content-Type: text/plain;charset=UTF-8
+Accept: */*
+Origin: https://perf.lowes.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: dbidv2=7b934de9-e8da-4b70-a5a4-c29ed3fa0316; region=east; notice_behavior=implied,eu; _lgsid=1673849558301; akaalb_perf_dual=1673935958~op=PERF_GCP_EAST_CTRL_DFLT:PERF_DEFAULT_EAST|~rv=94~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=c7d81cc6905fc4a4d3ff7a30e0cb0a3a; sn=1883; zipcode=14228; nearbyid=1883; zipstate=NY; AMCVS_5E00123F5245B2780A490D45%40AdobeOrg=1; g_amcv_refreshed=1; AMCV_5E00123F5245B2780A490D45%40AdobeOrg=-1303530583%7CMCIDTS%7C20105%7CMCMID%7C33059927376531299702538043148294114209%7CMCAAMLH-1674454359%7C9%7CMCAAMB-1674454359%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1673856759s%7CNONE%7CvVersion%7C3.3.0; _gcl_au=1.1.1905259846.1673849559; RT=\"z=1&dm=lowes.com&si=a6e50bb8-084a-4968-b3a2-5b759e74aa8a&ss=lcyet15s&sl=2&tt=5mg&bcn=%2F%2F173bf109.akstat.io%2F&ld=4hn\"; prodNumber=1
+----
+--Response 
+HTTP/1.1 200
+content-type: application/json; charset=utf-8
+content-length: 30
+x-envoy-upstream-service-time: 2
+server: istio-envoy
+date: Mon, 16 Jan 2023 06:12:39 GMT
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=22
+server-timing: origin; dur=32
+strict-transport-security: max-age=31536000
+content-security-policy: frame-ancestors 'self'; upgrade-insecure-requests
+set-cookie: akaalb_perf_single=1673935959~op=PERF_GCP_EAST_DFLT:PERF_DEFAULT_EAST|~rv=31~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=fcb71a919d78cabc9332788a8cc414e8; path=/; Expires=Tue, 17 Jan 2023 06:12:39 GMT; HttpOnly; Secure; SameSite=None
+x-network-quality: Excellent
+----
+--Request 
+GET https://connect.facebook.net/en_US/fbevents.js
+Host: connect.facebook.net
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+vary: Accept-Encoding
+content-encoding: gzip
+content-type: application/x-javascript; charset=utf-8
+content-security-policy: default-src * data: blob: 'self';script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.google.com 127.0.0.1:* 'unsafe-inline' 'unsafe-eval' blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self';block-all-mixed-content;upgrade-insecure-requests;
+x-fb-rlafr: 0
+document-policy: force-load-at-top
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy: same-origin-allow-popups
+pragma: public
+cache-control: public, max-age=1200
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-content-type-options: nosniff
+x-xss-protection: 0
+x-frame-options: DENY
+origin-agent-cluster: ?0
+strict-transport-security: max-age=31536000; preload; includeSubDomains
+x-fb-debug: So8DzP/nmD9Fd9BgfiZ7thdOFUc0BWXMVWJpVAQ1GNL4I+UO2+iau/k8M5aZPp2MIf5brJ05ZeHj8tbFnvrS9g==
+content-length: 27815
+x-fb-trip-id: 1679558926
+date: Mon, 16 Jan 2023 06:12:39 GMT
+alt-svc: h3=\":443\"; ma=86400
+----
+--Request 
+GET https://assets.adobedtm.com/0c85fa4ac103/23b3840ffae3/1b71d193829a/RCb32d075eb17e431ca780452f6fa7981a-source.min.js
+Host: assets.adobedtm.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+accept-ranges: bytes
+content-type: application/x-javascript
+etag: \"8243f8d07b4383a9cc109e474ed54f8b:1673453626.069136\"
+last-modified: Wed, 11 Jan 2023 16:13:46 GMT
+server: AkamaiNetStorage
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 630
+cache-control: max-age=3600
+expires: Mon, 16 Jan 2023 07:12:39 GMT
+date: Mon, 16 Jan 2023 06:12:39 GMT
+access-control-allow-origin: https://perf.lowes.com
+timing-allow-origin: *
+----
+--Request 
+GET https://servedby.flashtalking.com/segment/modify/ai30;;pixel/?valuePairs=LHpg
+Host: servedby.flashtalking.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Content-Length: 42
+Server: prod-xre-app25.ash11
+Expires: Mon, 16 Jan 2023 06:12:39 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Jan 2023 06:12:39 GMT
+Connection: keep-alive
+Set-Cookie: flashtalkingad1=\"GUID=54946A6EB934B2|segment=(ai30-m:LHpg)\";Comment=\"Flashtalking Cookie\";Path=/;Domain=.flashtalking.com;Expires=Wed, 15-Jan-2025 06:12:39 GMT;SameSite=None;Secure
+Strict-Transport-Security: max-age=86400
+----
+--Request 
+GET https://assets.adobedtm.com/0c85fa4ac103/23b3840ffae3/1b71d193829a/RC840afdcbd3504ba1b812a4448329688c-source.min.js
+Host: assets.adobedtm.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+accept-ranges: bytes
+content-type: application/x-javascript
+etag: \"8243f8d07b4383a9cc109e474ed54f8b:1673453626.069136\"
+last-modified: Wed, 11 Jan 2023 16:13:46 GMT
+server: AkamaiNetStorage
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 669
+cache-control: max-age=3600
+expires: Mon, 16 Jan 2023 07:12:39 GMT
+date: Mon, 16 Jan 2023 06:12:39 GMT
+access-control-allow-origin: https://perf.lowes.com
+timing-allow-origin: *
+----
+

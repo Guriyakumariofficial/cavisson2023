@@ -1,0 +1,20 @@
+--Request 
+POST https://perf.lowes.com/gauge/link/clickToChat
+Host: perf.lowes.com
+sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"104\"
+sec-ch-ua-mobile: ?0
+User-Agent: SOASTA
+sec-ch-ua-platform: \"Linux\"
+Content-Type: text/plain;charset=UTF-8
+Accept: */*
+Origin: https://perf.lowes.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Referer: https://perf.lowes.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: dbidv2=7b934de9-e8da-4b70-a5a4-c29ed3fa0316; region=east; notice_behavior=implied,eu; _lgsid=1673849558301; akaalb_perf_dual=1673935958~op=PERF_GCP_EAST_CTRL_DFLT:PERF_DEFAULT_EAST|~rv=94~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=c7d81cc6905fc4a4d3ff7a30e0cb0a3a; sn=1883; zipcode=14228; nearbyid=1883; zipstate=NY; AMCVS_5E00123F5245B2780A490D45%40AdobeOrg=1; g_amcv_refreshed=1; AMCV_5E00123F5245B2780A490D45%40AdobeOrg=-1303530583%7CMCIDTS%7C20105%7CMCMID%7C33059927376531299702538043148294114209%7CMCAAMLH-1674454359%7C9%7CMCAAMB-1674454359%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1673856759s%7CNONE%7CvVersion%7C3.3.0; _gcl_au=1.1.1905259846.1673849559; akaalb_perf_single=1673935959~op=PERF_GCP_EAST_DFLT:PERF_DEFAULT_EAST|~rv=31~m=PERF_DEFAULT_EAST:0|~os=14462d161d8526f3cd10bd3164564690~id=fcb71a919d78cabc9332788a8cc414e8; REVLIFTER={\"w\":\"0l554347-da15-447f-9091-6e8941024cdc\",\"u\":\"00a3a0bb-cfd5-45d2-be9a-3c0e25c45045\",\"s\":\"3ccefea4-a0ad-4fc4-956a-ef942fd149be\",\"se\":1676441559}; _fbp=fb.1.1673849559772.1280476199; g_previous=%7B%22gpvPageLoadTime%22%3A%220.00%22%2C%22gpvPageScroll%22%3A%22%22%2C%22gpvSitesections%22%3A%22hp%2Chp%2Chp%2Chp%22%2C%22gpvSiteId%22%3A%22desktop%22%2C%22gpvPageType%22%3A%22hp%22%7D; _tt_enable_cookie=1; _ttp=sZYZ9sTn3-5DTp0WmVpmSotAw-l; IR_gbd=lowes.com; IR_12374=1673849561202%7C0%7C1673849561202%7C%7C; _pin_unauth=dWlkPU5EaGhORGxpTnprdE1tUXhZeTAwWmpFeUxXRTJNbUl0TlRVMVpUQTRPV0UwTXpFNA; _uetsid=c8aa0ca0956411ed8fbd7d71a454652b; _uetvid=c8aa1250956411ed8eb6efb03452c98f; _clck=1wf2yr6|1|f8b|0; _clsk=1q4lsng|1673849561774|1|0|d.clarity.ms/collect; mdLogger=false; kampyle_userid=9edc-05ae-26e0-8b65-85f9-6b93-c7bb-bd89; kampyleUserSession=1673849561829; kampyleUserSessionsCount=1; kampyleSessionPageCounter=1; RT=\"z=1&dm=lowes.com&si=a6e50bb8-084a-4968-b3a2-5b759e74aa8a&ss=lcyet15s&sl=4&tt=64k&bcn=%2F%2F173bf109.akstat.io%2F&ld=6qg\"; LPVID=VlNTkxMjNmZWQ2ZTUyZjNk; LPSID-51200453=7UdgakA_TZeXETWPpRs-_g; prodNumber=3
+----
+
+
