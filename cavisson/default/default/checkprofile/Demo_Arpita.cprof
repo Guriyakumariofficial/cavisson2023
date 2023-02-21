@@ -1,0 +1,20 @@
+Profile_Last_Updated_By = Arpita
+Profile_Last_Updated_On = 02/09/2023 01:29:46
+Profile_Description = Demo_
+Test_Run_Number = 1780
+Prod = false
+Stress = false
+# Rule|Rule Id|Rule Name|Rule Type|Graph Definition|% Change|Expected Result|State|Last Updated By|Last Updated On|Future1|Future2|Future3|Future4|Future5|Rule Description|Production Value|Stress Value
+#if keyword is not enabled , prod and stress values will show '0.0'
+Rule|1|Vuser_Info_Rule|Check Rules|Avg (1.1.All) > 64|50|Pass|Yes|Arpita|29/10/2022 14:52:52|-|-|-|-|-|Average Total Vusers|0.0|0.0|Avg (1.1.All) > 64
+Rule|2|Vuser_Info_Rule_1|Check Rules|Avg (1.10.All) > 200|50|Pass|Yes|Arpita|29/10/2022 14:53:29|-|-|-|-|-|Average TCP Send Throughput (Kbps)|0.0|0.0|Avg (1.10.All) > 200
+Rule|3|Vuser_Info_Rule_2|Check Rules|Avg (1.11.All) > 1000|50|Pass|Yes|Arpita|29/10/2022 14:53:47|-|-|-|-|-|Average TCP Receive Throughput (Kbps)|0.0|0.0|Avg (1.11.All) > 1000
+Rule|4|HTTP_Failures_Rule|Check Rules|Avg (7.1.All) < 1|50|Pass|Yes|Arpita|01/30/2023 00:52:06|-|-|-|-|-|Average HTTP Failures (%)|0.0|0.0|Avg (7.1.All) < 1
+Rule|5|HTTP_Requests_Rule|Check Rules|Avg (3.3.All) < 100|50|Pass|Yes|Arpita|02/08/2023 23:49:20|-|-|-|-|-|Average HTTP Response Time (msec)|0.0|0.0|Avg (3.3.All) < 100
+Rule|6|Process_Stats_Rule|Check Rules|Avg (10921.5.All) < 10|50|Pass|Yes|Arpita|02/08/2023 23:50:29|-|-|-|-|-|Average Process CPU Core Usage(%)|0.0|0.0|Avg (10921.5.All) < 10
+Rule|7|Process_Stats_Rule_1|Check Rules|Avg (10921.6.All) < 1|50|Pass|Yes|Arpita|02/09/2023 00:32:45|-|-|-|-|-|Average Process Memory Used(%)|0.0|0.0|Avg (10921.6.All) < 1
+Rule|8|Network_traffic_Rule|Check Rules|Avg (10029.9.All) > 2000|50|Pass|Yes|Arpita|02/09/2023 00:34:03|-|-|-|-|-|Average Transmitted Throughput (Kbps)|0.0|0.0|Avg (10029.9.All) > 2000
+Rule|9|SysStats_Linux_Extended_Rule|Check Rules|Avg (10108.18.All) < 60|50|Pass|Yes|Arpita|02/09/2023 00:36:05|-|-|-|-|-|Average CPU Utilization % |0.0|0.0|Avg (10108.18.All) < 60
+Rule|10|SysStats_Linux_Extended_Rule_1|Check Rules|Avg (10108.4.All) > 1000|50|Pass|Yes|Arpita|02/09/2023 00:36:53|-|-|-|-|-|Average Available Memory (MB)|0.0|0.0|Avg (10108.4.All) > 1000
+Rule|11|Vuser_Info_Rule_3|Check Rules|Avg (1.6.All) > 50|50|Pass|Yes|Arpita|02/09/2023 00:39:14|-|-|-|-|-|Average Number Of Connections|0.0|0.0|Avg (1.6.All) > 50
+Rule|12|Network_traffic_Rule_1|Check Rules|Avg (10029.1.All) > 2000|50|Pass|Yes|Arpita|02/09/2023 00:40:48|-|-|-|-|-|Average Received Throughput (Kbps)|0.0|0.0|Avg (10029.1.All) > 2000
